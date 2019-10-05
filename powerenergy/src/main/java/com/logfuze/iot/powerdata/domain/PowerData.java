@@ -2,6 +2,8 @@ package com.logfuze.iot.powerdata.domain;
 
 import java.util.UUID;
 
+import javax.persistence.Column;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,13 +18,17 @@ public class PowerData {
 
 	private UUID id;
 	private String time;
-	private String ebStatus1;
-	private String ebStatus2;
-	private String ebStatus3;
-	private String ebStatus4;
-	private String ebStatus5;
-	private String ebStatus6;
-	private String ebStatus7;
-	private String ebStatus8;
-	private String ebStatus9;
+	
+	private String dtm;
+	private String seq;
+	private String sig;
+	private String msg;
+	private String ghstatus;
+	private String gh1;
+	private String gh2;
+	private String gh3;
+	private String rsstatus;
+	private String rs1;
+	private String rs2;
+	private String rs3;
 }
